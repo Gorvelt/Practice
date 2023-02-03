@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: solid 5px red;
+    text-align: center;
+    clear: both;
+}
+
+section {
+    border: solid 2px blue;
+    height: 300px;
+    width: 33.333%;
+    text-align: center;
+}
+
+.one {
+    float: left;
+}
+
+.two {
+    float: left;
+}
+
+.three {
+    float: left;
+}
