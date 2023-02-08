@@ -1,2 +1,2 @@
 # Practice
-For all things related to improving my tech skills
+For all things related to improving my tech skills.
