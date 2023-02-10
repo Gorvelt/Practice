@@ -1,0 +1,90 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/* TODO:
+[/] Figure out the MAIN elements of the page
+[/] Code them in CSS 
+[] Apply proper spacing
+[] Apply proper colors/fonts
+[] Apply images
+[] Double-check */
+
+body {
+    /* width: auto;
+    height: auto; */
+
+}
+
+li {
+    list-style: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+    height: 45px;
+    border: solid thin black;
+}
+
+header ul {
+    float: left;
+    /* width: 1%; */
+    margin: 0 1%;
+}
+
+.logo {
+    padding: 0 10%;
+}
+
+.logo img {
+    width: 10%;
+}
+
+div.main section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.main section img {
+    width: 50%;
+}
+
+div.main section > div {
+    width: 50%;
+    margin: 20% 0;
+}
+
+div.main > section * {
+    float: left;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
