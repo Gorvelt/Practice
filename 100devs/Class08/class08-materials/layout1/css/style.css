@@ -1,0 +1,77 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/* TODO:
+[/] Figure out the MAIN elements of the page
+[/] Code them in CSS 
+[] Apply proper spacing
+[] Apply proper colors/fonts
+[] Apply images
+[] Double-check */
+
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+li {
+    list-style: none;
+    margin: 0 1%;
+    float: left;
+}
+
+.top > section {
+    border: solid 3px black;
+    width: 50%;
+    float: left;
+}
+
+.top .right section {
+    border: solid thin black;
+    width: 50%;
+    float: left;
+}
+
+.bottom > section {
+    border: solid 3px black;
+    width: 33.3%;
+    float: left;
+}
+
+footer {
+    clear: both;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+header {
+    background: black;
+    color: white;
+}
