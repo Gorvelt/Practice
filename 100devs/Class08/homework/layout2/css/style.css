@@ -53,6 +53,11 @@ header ul {
     float: left;
     /* width: 1%; */
     margin: 0 1%;
+    border: solid thin black;
+}
+
+.main section * {
+    border: solid thin black;
 }
 
 .logo {

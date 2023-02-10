@@ -39,6 +39,15 @@ body {
 /* LAYOUT
 /*******************************************/
 
+header > *,
+.top > *,
+.right > *,
+.bottom > * {
+    border: solid thin black;
+}
+
+
+
 li {
     list-style: none;
     margin: 0 1%;
@@ -46,19 +55,23 @@ li {
 }
 
 .top > section {
-    border: solid 3px black;
+    /* border: solid thin black; */
     width: 50%;
     float: left;
 }
 
 .top .right section {
-    border: solid thin black;
+    /* border: solid thin black; */
     width: 50%;
     float: left;
 }
 
+.bottom {
+    clear: both;
+}
+
 .bottom > section {
-    border: solid 3px black;
+    /* border: solid thin black; */
     width: 33.3%;
     float: left;
 }
@@ -72,6 +85,6 @@ footer {
 /*******************************************/
 
 header {
-    background: black;
-    color: white;
+    /* background: black; */
+    /* color: white; */
 }

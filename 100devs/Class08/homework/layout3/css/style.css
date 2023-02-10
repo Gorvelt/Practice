@@ -21,15 +21,67 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+/* TODO:
+[] Figure out the MAIN elements of the page
+[] Code them in CSS 
+[] Apply proper spacing
+[] Apply proper colors/fonts
+[] Apply images
+[] Double-check */
 
+body {
+    min-height: 100vh;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+
+div.navigation {
+    height: 100vh;
+    width: 15%;
+    border: solid thin black;
+    list-style: none;
+    /* height: 500px; */
+    float: left;
+}
+
+body > div,
+section,
+.latest article > * {
+    border: solid thin black;
+
+}
+
+div.main {
+    width: 85%;
+    float: left;
+}
+
+header img {
+    width: 30%;
+}
+
+div.main .left, div .right {
+    float: left;
+}
+
+div.main .left {
+    width: 60%;
+}
+
+div.main .right {
+    width: 40%;
+}
+
+div.main .left > img {
+    width: 60%;
+}
+
+div.latest article > * {
+    width: 28.33%;
+    float: left;
 
 }
 
