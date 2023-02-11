@@ -356,5 +356,33 @@ header h1.logo {
 */
 
 .nav {
-  text-align: right;
+    text-align: right;
 }
+
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+
+.speaker-info {
+    border: solid 1px gray;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding: 22px 0;
+    text-align: center;
+}
+
+.speaker {
+    margin-bottom: 44px;
+  }
