@@ -39,57 +39,130 @@ li {
     list-style: none;
 }
 
-
 /******************************************
-/* LAYOUT
+/* NAVIGATION
 /*******************************************/
 
 header {
-    height: 45px;
-    border: solid thin black;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #D6D8DA;
 }
 
-header ul {
+.navbar {
+    height: 100%;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.navbar div {
+    height: 100%;
+    width: 33.33%;
     float: left;
-    /* width: 1%; */
-    margin: 0 1%;
-    border: solid thin black;
+    /* border: solid thin black; */
 }
 
-.main section * {
-    border: solid thin black;
+.navbar a {
+    text-decoration: none;
 }
 
-.logo {
-    padding: 0 10%;
+.courses ul {
+    margin-right: 20%;
+}
+
+.courses li {
+    float: left;
+    padding: 1.5em 1%;
+}
+
+.courses li + li {
+    margin: 0 4%;
+}
+
+.account ul {
+    margin-left: 40%;
+}
+
+.account li {
+    float: right;
+    padding: 1.5em 2%;
+    margin: 0 4%;
+}
+
+.logo a {
+    height: 100%;
+    margin-left: 30%;
 }
 
 .logo img {
-    width: 10%;
+    margin-top: 4%;
+    width: 50%;
 }
 
-div.main section {
+
+/******************************************
+/* MAIN SECTION
+/*******************************************/
+
+.main {
+    height: 100%;
+}
+
+.main h1 {
+    font-size: 3.5em;
+    text-decoration: underline;
+    margin-bottom: .5em;
+}
+
+.main p {
+    margin-bottom: 1em;
+}
+
+.main div * {
+    /* border: solid thin black; */
+}
+
+.main div {
     width: 80%;
     margin: 0 auto;
 }
 
-div.main section img {
+.main div img {
     width: 50%;
 }
 
-div.main section > div {
-    width: 50%;
-    margin: 20% 0;
+.main div > section {
+    width: 45%;
+    margin-top: 12%;
+    margin-left: 2%;
 }
 
-div.main > section * {
+.main > div * {
     float: left;
 }
 
-footer {
-
+.main nav, .main ul {
+    width: 100%;
 }
+
+.main li {
+    padding: 2%;
+    margin: 1%;
+    background-color: #1865f2;
+    border-radius: 4px;
+}
+
+.main a {
+    color: white;
+    text-decoration: none;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+

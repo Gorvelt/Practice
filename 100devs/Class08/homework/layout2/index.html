@@ -17,42 +17,50 @@
 		<script type="text/javascript" src="js/main.js"></script>
 
         <header>
-            <nav>
-                <li>
-                    <ul><a href="#">Courses</a></ul>
-                    <ul>
-                        <form action="get">
-                            <label for="search">Search</label>
-                            <input type="text" name="search">
-                        </form>
+            <nav class="navbar clearfix">
+                <div class="courses">
+                    <ul class="clearfix">
+                        <li><a href="#">Courses</a></li>
+                        <li>
+                            <form action="get">
+                                <label for="search">Search</label>
+                                <input type="text" name="search">
+                            </form>
+                        </li>
                     </ul>
-                    <ul class="logo"><a href="#"><img src="assets/khan academy logo.png" alt="Khan Academy logo">Khan Academy</a></ul>
-                    <ul><a href="#">Donate</a></ul>
-                    <ul><a href="#">Login</a></ul>
-                    <ul><a href="#">Sign up</a></ul>
-                </li>
+                </div>
+                <div class="logo">
+                    <a class="clearfix" href="#">
+                        <img src="assets/khan academy logo.png" alt="Khan Academy logo">
+                    </a>
+                </div>
+                <div class="account">
+                    <ul class="clearfix">    
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Sign up</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
     
-        <div class="main">
-            <section>
+        <section class="main clearfix">
+            <div class="clearfix">
                 <img src="assets/students.png" alt="a little girl with a laptop smiling at the camera">
-                <div>
-                    <section>
-                        <h1>For every student, every classroom. Real results.</h1>
-                        <p>We're a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
-                        <nav>
-                            <li>
-                                <ul><a href="#">Learners</a></ul>
-                                <ul><a href="#">Teachers</a></ul>
-                                <ul><a href="#">Districts</a></ul>
-                                <ul><a href="#">Parents</a></ul>
-                            </li>
-                        </nav>
-                    </section>
-                </div>
-            </section>
-        </div>
+                <section>
+                    <h1>For every student, every classroom. Real results.</h1>
+                    <p>We're a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Learners</a></li>
+                            <li><a href="#">Teachers</a></li>
+                            <li><a href="#">Districts</a></li>
+                            <li><a href="#">Parents</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </section>
 
 	</body>
 </html>

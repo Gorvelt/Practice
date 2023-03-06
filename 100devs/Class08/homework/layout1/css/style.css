@@ -39,20 +39,39 @@ body {
 /* LAYOUT
 /*******************************************/
 
-header > *,
+.header > *,
 .top > *,
 .right > *,
 .bottom > * {
     border: solid thin black;
 }
 
-
-
-li {
+ul {
+    text-decoration: none;
     list-style: none;
-    margin: 0 1%;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
     float: left;
 }
+
+
+/* li {
+    margin: 0 1%;
+    padding-top: 5%;
+    padding: 0 .5%; 
+    float: left;
+}
+
+header li a {
+    border: solid blue 1px;
+    text-align: center;
+    padding: 0 8.3%;
+    text-decoration: none;
+} */
+
 
 .top > section {
     /* border: solid thin black; */
@@ -87,4 +106,8 @@ footer {
 header {
     /* background: black; */
     /* color: white; */
+}
+
+header nav > * {
+    border: solid thin red;
 }

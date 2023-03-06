@@ -38,14 +38,6 @@ body {
 /* LAYOUT
 /*******************************************/
 
-div.navigation {
-    height: 100vh;
-    width: 15%;
-    border: solid thin black;
-    list-style: none;
-    /* height: 500px; */
-    float: left;
-}
 
 body > div,
 section,
@@ -54,13 +46,50 @@ section,
 
 }
 
-div.main {
-    width: 85%;
+
+
+/******************************************
+/* HEADER
+/*******************************************/
+
+.navigation {
+    height: 100vh;
+    width: 15%;
+    border: solid thin black;
+    list-style: none;
+    /* height: 500px; */
     float: left;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation .account li {
+    padding: .5em 1em;
+}
+
+.navigation .account a+a {
+    color: goldenrod;
+}
+
+.navigation .navlinks li {
+    margin-top: 5%;
+    padding: .5em 1em;
 }
 
 header img {
     width: 30%;
+}
+
+
+/******************************************
+/* MAIN
+/*******************************************/
+
+div.main {
+    width: 85%;
+    float: left;
 }
 
 div.main .left, div .right {
@@ -79,15 +108,18 @@ div.main .left > img {
     width: 60%;
 }
 
+
+/******************************************
+/* LATEST
+/*******************************************/
+
 div.latest article > * {
     width: 28.33%;
     float: left;
 
 }
 
-footer {
 
-}
 
 /******************************************
 /* ADDITIONAL STYLES
